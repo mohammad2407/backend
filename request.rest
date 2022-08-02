@@ -1,0 +1,13 @@
+
+POST http://localhost:4003/signIn
+Content-Type: application/json
+
+{   
+    
+   "email":"sarath@gmail.com",
+    "password":"sarath1234"
+    
+}
+ 
+###
+GET http://localhost:4003/users
